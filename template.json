@@ -9,8 +9,8 @@
 		    "note": "Cartridge",
 		    "platform": "linux",
 		    "repository": {
-		      "stackfile": "Template/Stack/cartridge.yml",
-		      "url": "https://github.com/mycroftwilde/portainer_templates"
+		      "stackfile": "Template/Stacks/cartridge.yml",
+		      "url": "https://github.com/mycroftwilde/P_Template_Test"
 		    },
 		    "title": "Cartridge",
 		    "type": 3
