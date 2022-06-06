@@ -1,0 +1,20 @@
+{
+  "version": "2",
+  "templates": [
+    
+     {
+		    "categories": ["Music Server"],
+		    "description": "AzureCast Server Setup.",
+		    "logo": "https://raw.githubusercontent.com/AzuraCast/AzuraCast/main/resources/azuracast.png",
+		    "note": "AzureCast",
+		    "platform": "linux",
+		    "repository": {
+		      "stackfile": "main/docker-compose.sample.yml",
+		      "url": "https://github.com/AzuraCast/AzuraCast/"
+		    },
+		    "title": "AzureCast",
+		    "type": 3
+		  } 
+    
+   ]
+}   
