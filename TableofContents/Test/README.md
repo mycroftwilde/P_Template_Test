@@ -103,6 +103,25 @@ Steps:
 
 ##
 
+### Dummy Terminal Setup 
+
+Hardware Required: 
+ 1. Monitor 
+ 2. Keyboard and Mouse 
+ 3. Raspberry Pi or PC
+
+Steps: 
+
+##
+
+### New Client Setup Notes
+
+ 1. Android 
+ 2. iOS
+ 3. Windows
+
+##
+
 ### Resources for Self-Hosting (External Links List)
 
 ##
