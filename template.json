@@ -12,6 +12,9 @@
 		      "stackfile": "Template/Stacks/mesh.yml",
 		      "url": "https://github.com/mycroftwilde/P_Template_Test"
 		    },
+	           "platform": "linux",
+      "ports": ["880:80/tcp, 4443:443/tcp"],
+      "restart_policy": "always",
 		    "title": "Mesh Central",
 		    "type": 3
 		  } 
