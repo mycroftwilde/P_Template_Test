@@ -3,9 +3,24 @@
   "templates": [
     
  {
-    "categories": ["Notes Server"],
-    "description": "Joplin is an open-source note-taking app",
+    "categories": ["Management Server"],
+    "description": "Remote Management Server",
     "env": [
+      {
+        "default": "/portainer/Files/AppData/MeshCentral/Config",
+        "label": "Config Container Bind",
+        "name": "CONFIG"
+      },
+      {
+        "default": "/portainer/Files/AppData/MeshCentral/Files",
+        "label": "Files Container Bind",
+        "name": "FILES"
+      },
+      {
+        "default": "/portainer/Files/AppData/MeshCentral/Backup",
+        "label": "Backup Container Bind",
+        "name": "BACK"
+      },
       {
         "default": "443",
         "label": "Container Port 443",
@@ -18,13 +33,13 @@
       }
     ],
     "logo": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/master/Images/meshc.png",
-    "note": "Joplin is an open-source note-taking app",
+    "note": "Mesh Central",
     "platform": "linux",
     "repository": {
       "stackfile": "Template/Stack/mesh.yml",
       "url": "https://github.com/mycroftwilde/portainer_templates"
     },
-    "title": "Joplin",
+    "title": "Mesh Central",
     "type": 3
   }
     
