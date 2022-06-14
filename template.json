@@ -8,12 +8,11 @@
 		    "logo": "https://raw.githubusercontent.com/jamjnsn/cartridge/main/static/images/logo-full.png",
 		    "note": "Mesh",
 		    "platform": "linux",
+	            "restart_policy": "always",
 		    "repository": {
 		      "stackfile": "Template/Stacks/mesh.yml",
 		      "url": "https://github.com/mycroftwilde/P_Template_Test"
 		    },
-                    "ports": ["80:80/tcp, 443:443/tcp"],
-                    "restart_policy": "always",
 		    "title": "Mesh Central",
 		    "type": 3
 		  }
