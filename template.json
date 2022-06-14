@@ -13,7 +13,7 @@
 		      "url": "https://github.com/mycroftwilde/P_Template_Test"
 		    },
 		    "title": "Mesh Central",
-		    "type": 1
+		    "type": 3
 	            "env": [
           		{
            		 "default": "1000",
