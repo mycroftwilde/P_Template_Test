@@ -5,6 +5,18 @@
      {
 		    "categories": ["Management Server"],
 		    "description": "Mesh.",
+	            "env": [
+			    {
+         		 "default": "1000",
+          		 "label": "PUID",
+          		 "name": "PUID"
+        		    },
+        	           {
+          		"default": "1000",
+          		"label": "PGID",
+          		"name": "PGID"
+        			},
+			      ],
 		    "logo": "https://raw.githubusercontent.com/jamjnsn/cartridge/main/static/images/logo-full.png",
 		    "note": "Mesh",
 		    "platform": "linux",
@@ -12,24 +24,8 @@
 		      "stackfile": "main/Template/Stacks/mesh.yml",
 		      "url": "https://github.com/mycroftwilde/P_Template_Test"
 		    },
-	     	      "env": [
-        {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "default": "1000",
-          "label": "PGID",
-          "name": "PGID"
-        },
-			      ],
 		    "title": "Mesh Central",
 		    "type": 3
-
    }
-  
   ]
 }   
-
-
