@@ -1,6 +1,5 @@
-# The Self-Hosting Cook Book
+## The Self-Hosting Cook Book
 
-## From PC to Portainer: 
-### The Start of your Self-Hosting Journey 
+### The Start of your Self-Hosting Journey: From PC to Portainer
 
 The Requirement you have to Self-Hosting is an Extra PC -> The last one you upgraded from should do just fine! 
