@@ -5,18 +5,6 @@
      {
 		    "categories": ["Management Server"],
 		    "description": "Mesh.",
-	            "env": [
-			    {
-         		 "default": "1000",
-          		 "label": "PUID",
-          		 "name": "PUID"
-        		    },
-        	           {
-          		"default": "1000",
-          		"label": "PGID",
-          		"name": "PGID"
-        			},
-			      ],
 		    "logo": "https://raw.githubusercontent.com/jamjnsn/cartridge/main/static/images/logo-full.png",
 		    "note": "Mesh",
 		    "platform": "linux",
