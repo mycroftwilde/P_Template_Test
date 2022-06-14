@@ -3,14 +3,12 @@ services:
   meshcentral:
     container_name: meshcentral
     image: ghcr.io/gurucomputing/meshcentral-docker:latest
-    restart: unless-stopped
+    restart: "always"
     volumes:
-      - /portainer/Files/AppData/Config/meshcentraldata:/meshcentral/meshcentral-data
-      - /portainer/Files/AppData/Config/meshcentralfiles:/meshcentral/meshcentral-files
-      - /portainer/Files/AppData/Config/meshcentralbackup:/meshcentral/meshcentral-backup
+      - ./container-data/meshcentral-data:/meshcentral/meshcentral-data
+      - ./container-data/meshcentral-files:/meshcentral/meshcentral-files
+      - ./container-data/meshcentral-backup:/meshcentral/meshcentral-backup
+      - /etc/localtime:/etc/localtime:ro
     ports:
       - 80:80
       - 443:443
-    environment:
-      - PUID=1000
-      - PGID=1000
