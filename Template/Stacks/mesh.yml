@@ -5,9 +5,9 @@ services:
     image: ghcr.io/gurucomputing/meshcentral-docker:latest
     restart: "always"
     volumes:
-      - ./container-data/meshcentral-data:/meshcentral/meshcentral-data
-      - ./container-data/meshcentral-files:/meshcentral/meshcentral-files
-      - ./container-data/meshcentral-backup:/meshcentral/meshcentral-backup
+      - /portainer/Files/AppData/Config/meshcentral-data:/meshcentral/meshcentral-data
+      - /portainer/Files/AppData/Config/meshcentral-files:/meshcentral/meshcentral-files
+      - /portainer/Files/AppData/Config/meshcentral-backup:/meshcentral/meshcentral-backup
       - /etc/localtime:/etc/localtime:ro
     ports:
       - 880:80
