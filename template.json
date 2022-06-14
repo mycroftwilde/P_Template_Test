@@ -10,7 +10,7 @@
 		    "platform": "linux",
 		    "repository": {
 		      "stackfile": "Template/Stacks/mesh.yml",
-		      "url": "https://github.com/mycroftwilde/P_Template_Test"
+		      "url": "https://github.com/mycroftwilde/P_Template_Test/"
 		    },
 		    "title": "Mesh Central",
 		    "type": 3
