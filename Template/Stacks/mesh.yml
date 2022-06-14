@@ -13,5 +13,5 @@ services:
       - 80:80
       - 443:443
     environment:
-      - PUID=${PUID}
-      - PGID=${PGID}
+      - PUID=1000
+      - PGID=1000
