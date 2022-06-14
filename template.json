@@ -14,6 +14,17 @@
 		    },
 		    "title": "Mesh Central",
 		    "type": 1
+	            "env": [
+          		{
+           		 "default": "1000",
+            		 "label": "PUID",
+            		 "name": "PUID"
+          		},
+         		{
+            		"default": "1000",
+            		"label": "PGID",
+            		"name": "PGID"
+          		}
 		  }
    ]
 }   
