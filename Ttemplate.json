@@ -2,19 +2,36 @@
   "version": "2",
   "templates": [
     
-     {
-		    "categories": ["Music Server"],
-		    "description": "AzureCast Server Setup.",
-		    "logo": "https://raw.githubusercontent.com/AzuraCast/AzuraCast/main/resources/azuracast.png",
-		    "note": "AzureCast",
-		    "platform": "linux",
-		    "repository": {
-		      "stackfile": "main/docker-compose.sample.yml",
-		      "url": "https://github.com/AzuraCast/AzuraCast/"
-		    },
-		    "title": "AzureCast",
-		    "type": 3
-		  } 
+ {
+    "categories": ["Notes Server"],
+    "description": "Joplin is an open-source note-taking app",
+    "env": [
+      {
+        "default": "22300",
+        "label": "PORT",
+        "name": "PORT"
+      },
+	       {
+        "default": "http://joplin.yourdomain.tld:22300",
+        "label": "URL",
+        "name": "URL"
+      }
+	    
+	    
+	    
+	    
+	    
+    ],
+    "logo": "https://raw.githubusercontent.com/laurent22/joplin/master/Assets/SquareIcon512.png",
+    "note": "Joplin is an open-source note-taking app",
+    "platform": "linux",
+    "repository": {
+      "stackfile": "Template/Stack/joplin.yml",
+      "url": "https://github.com/mycroftwilde/portainer_templates"
+    },
+    "title": "Joplin",
+    "type": 3
+  }
     
    ]
 }   
