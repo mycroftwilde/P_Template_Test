@@ -5,7 +5,7 @@
      {
 		    "categories": ["Management Server"],
 		    "description": "Mesh.",
-		    "logo": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/Images/meshc.png",
+		    "logo": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/master/Images/meshc.png",
 		    "note": "Mesh",
 		    "platform": "linux",
 		    "repository": {
