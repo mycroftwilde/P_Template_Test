@@ -14,6 +14,23 @@
 		    },
 		    "title": "Mesh Central",
 		    "type": 3
+	         "env": [
+      {
+        "default": "443",
+        "label": "PORT4",
+        "name": "PORT"
+      },
+	       {
+        "default": "80",
+        "label": "PORT8",
+        "name": "PORT"
+      }
+	    
+	    
+	    
+	    
+	    
+    ],
    }
   ]
 }   
