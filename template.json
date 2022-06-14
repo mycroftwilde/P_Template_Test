@@ -18,12 +18,12 @@
       {
         "default": "443",
         "label": "PORT4",
-        "name": "PORT"
+        "name": "Port 443"
       },
 	       {
         "default": "80",
         "label": "PORT8",
-        "name": "PORT"
+        "name": "Port 80"
       }
 	    
 	    
