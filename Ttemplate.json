@@ -8,9 +8,14 @@
     "env": [
       {
         "default": "443",
-        "label": "PORT4",
-        "name": "PORT"
-      }    
+        "label": "Container Port 443",
+        "name": "PORT4"
+      },
+      {
+        "default": "80",
+        "label": "Container Port 80",
+        "name": "PORT8"
+      }
     ],
     "logo": "https://raw.githubusercontent.com/laurent22/joplin/master/Assets/SquareIcon512.png",
     "note": "Joplin is an open-source note-taking app",
