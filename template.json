@@ -12,6 +12,17 @@
 		      "stackfile": "main/Template/Stacks/mesh.yml",
 		      "url": "https://github.com/mycroftwilde/P_Template_Test"
 		    },
+	     	      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "1000",
+          "label": "PGID",
+          "name": "PGID"
+        },
 		    "title": "Mesh Central",
 		    "type": 3
 
