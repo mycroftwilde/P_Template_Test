@@ -7,7 +7,7 @@
     "description": "Joplin is an open-source note-taking app",
     "env": [
       {
-        "default": "22300",
+        "default": "443",
         "label": "PORT4",
         "name": "PORT"
       }    
