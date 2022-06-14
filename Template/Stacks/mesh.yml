@@ -3,7 +3,7 @@ services:
   meshcentral:
     container_name: meshcentral
     image: ghcr.io/gurucomputing/meshcentral-docker:latest
-    restart: "always"
+    restart: unless-stopped
     volumes:
       - /portainer/Files/AppData/Config/meshcentral-data:/meshcentral/meshcentral-data
       - /portainer/Files/AppData/Config/meshcentral-files:/meshcentral/meshcentral-files
