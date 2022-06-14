@@ -9,8 +9,8 @@
 		    "note": "Mesh",
 		    "platform": "linux",
 		    "repository": {
-		      "stackfile": "Template/Stacks/mesh.yml",
-		      "url": "https://github.com/mycroftwilde/P_Template_Test/"
+		      "stackfile": "Template/Stack/mesh.yml",
+		      "url": "https://github.com/mycroftwilde/portainer_templates"
 		    },
 		    "title": "Mesh Central",
 		    "type": 3
