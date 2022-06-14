@@ -2,4 +2,4 @@
 
 ### The Start of your Self-Hosting Journey: From PC to Portainer
 
-The Requirement you have to Self-Hosting is an Extra PC -> The last one you upgraded from should do just fine! 
+The Only Requirement you have to Self-Host is an Extra PC -> The last one you upgraded from should do just fine! 
