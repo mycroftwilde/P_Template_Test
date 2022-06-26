@@ -17,7 +17,7 @@
 	         "env": [
 	           {
         "default": "/portainer/Files/AppData/FireFlyIII/DB",
-        "label": "DB Container Bind",
+        "label": "DB",
         "name": "DB"
       },
       {
