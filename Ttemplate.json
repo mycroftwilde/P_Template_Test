@@ -7,6 +7,11 @@
     "description": "Remote Management Server",
     "env": [
       {
+        "default": "/portainer/Files/AppData/FireFlyIII/Upload",
+        "label": "UPLOAD",
+        "name": "UPLOAD"
+      },
+      {
         "default": "/portainer/Files/AppData/FireFlyIII/DB",
         "label": "DB",
         "name": "DB"
