@@ -23,7 +23,7 @@
       {
         "default": "80",
         "label": "PORT",
-        "name": "Port 80"
+        "name": "PORT"
       }        
     ],
    }
