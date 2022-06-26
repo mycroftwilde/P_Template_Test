@@ -22,7 +22,7 @@
         "name": "PORT"
       }
     ],
-    "logo": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/master/Images/meshc.png",
+    "logo": "https://raw.githubusercontent.com/firefly-iii/firefly-iii/develop/.github/assets/img/logo-small.png",
     "note": "Mesh Central",
     "platform": "linux",
     "repository": {
