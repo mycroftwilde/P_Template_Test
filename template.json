@@ -4,32 +4,22 @@
     
      {
 		    "categories": ["Management Server"],
-		    "description": "Mesh.",
+		    "description": "FireFly III",
 		    "logo": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/master/Images/meshc.png",
-		    "note": "Mesh",
+		    "note": "FireFly III",
 		    "platform": "linux",
 		    "repository": {
-		      "stackfile": "Template/Stack/mesh.yml",
+		      "stackfile": "Template/Stack/fireflyIII.yml",
 		      "url": "https://github.com/mycroftwilde/portainer_templates"
 		    },
 		    "title": "Mesh Central",
 		    "type": 3
 	         "env": [
       {
-        "default": "443",
-        "label": "PORT4",
-        "name": "Port 443"
-      },
-	       {
         "default": "80",
-        "label": "PORT8",
+        "label": "PORT",
         "name": "Port 80"
-      }
-	    
-	    
-	    
-	    
-	    
+      }        
     ],
    }
   ]
