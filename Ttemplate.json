@@ -44,16 +44,6 @@
         "default": "/portainer/Files/AppData/FireFlyIII/Upload",
         "label": "DATA",
         "name": "DATA"
-      },
-      {
-        "default": "/portainer/Files/AppData/FireFlyIII/DB",
-        "label": "DB",
-        "name": "DB"
-      },
-      {
-        "default": "80",
-        "label": "Container Port 80",
-        "name": "PORT"
       }
     ],
     "logo": "https://raw.githubusercontent.com/crazy-max/diun/master/.res/diun.png",
