@@ -15,6 +15,11 @@
 		    "title": "Mesh Central",
 		    "type": 3
 	         "env": [
+	           {
+        "default": "/portainer/Files/AppData/FireFlyIII/DB",
+        "label": "DB Container Bind",
+        "name": "DB"
+      },
       {
         "default": "80",
         "label": "PORT",
