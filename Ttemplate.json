@@ -7,36 +7,21 @@
     "description": "Remote Management Server",
     "env": [
       {
-        "default": "/portainer/Files/AppData/MeshCentral/Config",
-        "label": "Config Container Bind",
-        "name": "CONFIG"
-      },
-      {
-        "default": "/portainer/Files/AppData/MeshCentral/Files",
-        "label": "Files Container Bind",
-        "name": "FILES"
-      },
-      {
-        "default": "/portainer/Files/AppData/MeshCentral/Backup",
-        "label": "Backup Container Bind",
-        "name": "BACK"
-      },
-      {
-        "default": "443",
-        "label": "Container Port 443",
-        "name": "PORT4"
+        "default": "/portainer/Files/AppData/FireFlyIII/DB",
+        "label": "DB",
+        "name": "DB"
       },
       {
         "default": "80",
         "label": "Container Port 80",
-        "name": "PORT8"
+        "name": "PORT"
       }
     ],
     "logo": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/master/Images/meshc.png",
     "note": "Mesh Central",
     "platform": "linux",
     "repository": {
-      "stackfile": "Template/Stack/mesh.yml",
+      "stackfile": "Template/Stack/fireflyIII.yml",
       "url": "https://github.com/mycroftwilde/portainer_templates"
     },
     "title": "Mesh Central",
